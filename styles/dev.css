@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* global styles */
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  scroll-behavior: smooth;
+}
+/* common styles */
+.mt{
+  margin-top: 50px;
+}
+.mb{
+  margin-bottom: 50px;
+}
+.textPrimary {
+  color: rgb(253, 110, 10);
+}
+.btn {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  padding: 18px 36px;
+  color: #ffff;
+  border: none;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: padding 0.5s ease, background 0.5s ease;
+}
+.btn:hover,
+.btn:active {
+  padding: 20px 40px;
+  background: rgb(236, 101, 4);
+}
+.btn2 {
+  border-radius: 5px;
+  border: 2px solid rgb(253, 110, 10);
+  padding: 18px 36px;
+  color: rgb(253, 110, 10);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: padding 0.5s ease, background 0.5s ease;
+  background-color: #ffff;
+  margin-left: 30px;
+}
+.btn2:hover,
+.btn2:active {
+  padding: 20px 40px;
+}
+.pText {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hText {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+}
+.smTextLight {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.smTextDark {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+.hsubText {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+}
+.sectionTittle {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sectionTittleTwo {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+.sectionSubtittle {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+}
+.sectionMinTittle {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+.navTittle {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 800;
+}
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navMenu li {
+  list-style: none;
+  margin-left: 50px;
+}
+.navMenu li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* banner styles */
+header {
+  background-color: rgb(255, 248, 243);
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerContent {
+  max-width: 585px;
+}
+.bgImages {
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: center left, bottom right;
+}
+/* about styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+}
+.aboutContainer {
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+  padding: 130px 150px;
+  text-align: center;
+}
+.aboutSummery {
+  display: flex;
+  justify-content: space-between;
+}
+/* what i do styles */
+.skillsContainer {
+  display: flex;
+  gap: 24px;
+}
+.whatIdocontent {
+  padding: 0px 100px;
+  text-align: center;
+}
+/* ...SKILLS */
+.skill {
+  max-width: 267px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+}
