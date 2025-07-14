@@ -91,12 +91,64 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-  .hText{
+  .hText {
     font-size: 3.5em;
   }
   .navMenu li {
-  list-style: none;
-  margin: 10px;
-  padding: 10px;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+  }
 }
+@media screen and (min-width: 200px) and (max-width: 370px) {
+  .banner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .bgImages {
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .image__hardy {
+    max-width: 100%;
+    background-position: center;
+  }
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navMenu li {
+    margin: 0;
+  }
+  .hText {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .hsubText {
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .btn__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+  }
+  .btn {
+    width: 80%;
+    font-size: medium;
+  }
+  .btn2 {
+    width: 80%;
+    text-align: center;
+  }
+  .pText{
+    text-align: center;
+    padding: 10px;
+  }
 }
