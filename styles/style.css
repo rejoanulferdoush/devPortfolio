@@ -11,11 +11,11 @@
 .mt {
   margin-top: 50px;
 }
-.mt-2{
-  margin-bottom: 24px ;
+.mt-2 {
+  margin-bottom: 24px;
 }
-.mb-2{
-  margin-bottom: 24px ;
+.mb-2 {
+  margin-bottom: 24px;
 }
 .mb {
   margin-bottom: 50px;
@@ -23,7 +23,7 @@
 .textPrimary {
   color: rgb(253, 110, 10);
 }
-.textAlign{
+.textAlign {
   text-align: center;
 }
 .btn {
@@ -177,7 +177,7 @@ main section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.about__item{
+.about__item {
   max-width: 100%;
 }
 /* what i do styles */
@@ -211,16 +211,20 @@ hr {
   border: 1px solid rgb(209, 209, 209);
 }
 /* footer styles */
-footer{
+footer {
   background: rgb(255, 248, 243);
   padding: 230px 130px;
+}
+.foot__container {
   display: flex;
   gap: 24px;
 }
-.social a img{
+.social a img {
   margin-right: 24px;
 }
-.footColumn input[type="text"], input[type="email"], textarea{
+.footColumn input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   padding: 30px 18px;
   margin-bottom: 24px;
@@ -230,6 +234,6 @@ footer{
   resize: none;
 }
 /* extra */
-.hide{
+.hide {
   display: none;
 }
